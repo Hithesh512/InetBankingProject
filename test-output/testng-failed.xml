@@ -7,13 +7,6 @@
   <test thread-count="5" name="BankingApp Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.inetBanking.testCases.TC_AddNewAccount_005">
-        <methods>
-          <include name="AddNewAccount"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.inetBanking.testCases.TC_AddNewAccount_005 -->
       <class name="com.inetBanking.testCases.TC_LoginDDT_002">
         <methods>
           <include name="loginDDT" invocation-numbers="1 3"/>
